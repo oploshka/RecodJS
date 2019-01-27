@@ -22,7 +22,7 @@ var Recod = (function () {
 
   var getFunction = function (name) {
     if(!modules.hasOwnProperty(name)){
-      console.error('ERROR App::get('+name+')', name);
+      console.error('ERROR Recod::get('+name+')', name);
       return;
     }
 
